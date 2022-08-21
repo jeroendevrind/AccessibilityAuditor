@@ -1,0 +1,11 @@
+framework module A11yAuditor {
+  umbrella header "A11yAuditor.h"
+
+  export *
+  module * { export * }
+}
+
+module A11yAuditor.Swift {
+    header "A11yAuditor-Swift.h"
+    requires objc
+}
